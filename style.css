@@ -6,8 +6,14 @@ detail text: #F6C7289
 button: #3D8168
 button hover: #1A4032
 */
+/*
+fonts:
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+*/
 
 
 * {
     background-color: #F2EAE2;
+    font-family: 'Montserrat', sans-serif;
 }
