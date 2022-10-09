@@ -13,7 +13,97 @@ font-family: 'Montserrat', sans-serif;
 */
 
 
-* {
+body {
     background-color: #F2EAE2;
     font-family: 'Montserrat', sans-serif;
+}
+
+/* BODY DETAILS */
+
+.details {
+    background-color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    color: #1C232B;
+}
+
+.category {
+    font-size: 12px;
+    color: #6C7289;
+    font-weight: medium;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.description {
+    font-size: 14px;
+    color: #6C7289;
+    font-weight: medium;
+    line-height: 23px;
+    /* word-spacing: 2px; */
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.big {
+    font-family: 'Fraunces', serif;
+    color: #3D8168;
+    font-size: 32px;
+}
+
+.little {
+    font-size: 13px;
+    color: #6C7289;
+    padding-top: 32px;
+    text-decoration-line: line-through;
+
+}
+
+/* MOBILE */
+.card {
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+#desktop {
+    display: none;
+}
+
+/* DESKTOP */
+
+@media only screen and (min-width: 768px){
+    .card {
+        width: 600px;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img{
+        width: 300px;
+    }
+
+    .details {
+        width: 300px;
+    }
+
+    #desktop {
+        display: block;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+
 }
