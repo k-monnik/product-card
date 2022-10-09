@@ -67,6 +67,26 @@ h1 {
 
 }
 
+.button {
+    width: 236px;
+    height: 48px;
+    background-color: #3D8168;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 6px;
+    border: none;
+}
+
+.cart {
+    padding-top: 13px;
+}
+
+
 /* MOBILE */
 .card {
     width: 100%;
