@@ -20,8 +20,11 @@ body {
 
 /* BODY DETAILS */
 
+
+
 .details {
     background-color: #FFFFFF;
+    padding: 14px;
 }
 
 h1 {
@@ -57,6 +60,7 @@ h1 {
     font-family: 'Fraunces', serif;
     color: #3D8168;
     font-size: 32px;
+    font-weight: bold;
 }
 
 .little {
@@ -102,11 +106,28 @@ h1 {
 /* DESKTOP */
 
 @media only screen and (min-width: 768px){
+    .container {
+
+
+    }
     .card {
         width: 600px;
         height: 450px;
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        border: none;
+        border-radius: 1rem;
+        overflow: hidden;
+        margin: 12.5% auto;
+
+        /* padding-top: 0px 10%; */
+
+
+
+
+
+
     }
 
     .img{
