@@ -74,7 +74,7 @@ h1 {
 }
 
 .button {
-    width: 236px;
+
     height: 48px;
     background-color: #3D8168;
     color: #FFFFFF;
@@ -130,10 +130,8 @@ a {
     width: 343px;
     padding-top: 12px;
     padding-left: 22px;
-    /* padding: 12px 92px 36px 22px; */
+
     margin: 0 auto;
-
-
 }
 
 #desktop {
@@ -159,10 +157,10 @@ h1 {
 /* DESKTOP */
 
 @media only screen and (min-width: 768px){
-    .container {
+    /* .container {
 
 
-    }
+    } */
     .card {
         width: 600px;
         height: 450px;
@@ -184,7 +182,10 @@ h1 {
     .details {
         width: 300px;
         height: 450px;
-        padding: 22px 42px 36px 32px;
+        padding-top: 22px;
+        padding-left: 32px;
+
+
     }
 
     #desktop {
@@ -196,8 +197,21 @@ h1 {
     }
 
     h1 {
-        padding-right: 12px;
+        padding-right: 82px;
+        padding-top: 10px;
 
+    }
+
+    .description {
+        padding-right: 44px;
+        padding-bottom: 10px;
+    }
+
+    .button {
+        width: 236px;
+        margin-top: -5px;
+        margin-bottom: 5px;
+        padding-right: 12px;
     }
 
 }
