@@ -86,12 +86,7 @@ h1 {
     flex-direction: row;
     border-radius: 6px;
     border: none;
-    padding-top: -15px;
-}
-
-
-.cart {
-    padding-top: 13px;
+    padding-top: 15px;
 }
 
 .button:hover {
