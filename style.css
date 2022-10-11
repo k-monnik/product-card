@@ -94,6 +94,11 @@ h1 {
     padding-top: 13px;
 }
 
+.button:hover {
+    background-color: #1A4032;
+    cursor: pointer;
+}
+
 .attribution {
     font-size: 9px;
     color: #6C7289;
