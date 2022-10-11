@@ -25,14 +25,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/product-card-desktop-screenshot.png)
+![](./images/product-card-mobile-screenshot.png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/k-monnik/product-card)
+- Live Site URL: [Perfume Product Card](https://km-perfume-product-card.netlify.app)
 
 ## My process
 
